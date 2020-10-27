@@ -8,4 +8,5 @@ Route::get('/admins', 'AdminController@index');
 
 /* Konsep Laravel MVC => Model View Controller
 -> buat controller namanya AdminController
+Tes Git Arjun
 */
