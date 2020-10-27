@@ -10,3 +10,7 @@ Route::get('/admins', 'AdminController@index');
 -> buat controller namanya AdminController
 Tes Git Arjun
 */
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
