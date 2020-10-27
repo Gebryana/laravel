@@ -1274,9 +1274,9 @@
 
     </script>
     <!-- Bootstrap 3.3.7 -->
-    <script src="{{ asset (admin/bower_components/bootstrap/dist/js/bootstrap.min.js) }}"></script>
+    <script src="{{ asset ('admin/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <!-- Morris.js charts -->
-    <script src="{{ asset (admin/bower_components/raphael/raphael.min.js) }}"></script>
+    <script src="{{ asset ('admin/bower_components/raphael/raphael.min.js') }}"></script>
     <script src="bower_components/morris.js/morris.min.js"></script>
     <!-- Sparkline -->
     <script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
