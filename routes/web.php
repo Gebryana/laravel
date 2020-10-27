@@ -1,16 +1,11 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('auth.login');
+})->middleware('guest');
 
-Route::get('/admins', 'AdminController@index');
-
-/* Konsep Laravel MVC => Model View Controller
--> buat controller namanya AdminController
-Tes Git Arjun
-*/
-
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admins', 'AdminController@index');
